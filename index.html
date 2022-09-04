@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Market of Stuff</title>
+        <link href="./resources/style.css" rel="stylesheet"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="nav">
+            <div class="logo">
+                <h1>Johny's Electronics</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#products-gallery">Shop</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <header>
+            <div id="header-text-logo">
+                <h1>Technology of tomorrow, <span>today</span></h1>
+                <h2>Don't wait for technology to get ahead of you. Be ahead of technology with one of our latest computer designs.</h2>
+            </div>
+            
+        </header>
+
+        <div id="products-list">
+            <ul>
+                <li><a href="">Puters</a></li>
+                <div class="vertical-line"></div>
+                <li><a href="">Monitors</a></li>
+                <div class="vertical-line"></div>
+                <li><a href="">Keyboards</a></li>
+                <div class="vertical-line"></div>
+                <li><a href="">Mice</a></li>
+                <div class="vertical-line"></div>
+                <li><a href="">Headphones</a></li>
+                <div class="vertical-line"></div>
+                <li><a href="">Graphic's Cards</a></li>
+                <div class="vertical-line"></div>
+                <li><a href="">Motherboards</a></li>
+                <div class="vertical-line"></div>
+                <li><a href="">Processors</a></li>
+                <div class="vertical-line"></div>
+                <li><a href="">Storage</a></li>
+                <div class="vertical-line"></div>
+                <li><a href="">Accessories</a></li>
+            </ul>
+        </div>
+
+        <div id="search-form">
+            <form>
+                <div class="input-box search">
+                    <label for="item-search">Search Product:</label>
+                    <input type="text" id="item-search" name="item-search" value="ex. Asus K55VD"/>
+                </div>
+
+                <div class="input-box radio">
+                    <label>Currency:</label><br>
+
+                    <div>
+                        <label for="euro">EUR</label>
+                        <input type="radio" id="euro" name="currency"/>
+                    </div>
+                    
+                    <div>
+                        <label for="usd">USD</label>
+                        <input type="radio" id="usd" name="currency"/>
+                    </div>
+                    
+                    <div>
+                        <label for="pl">PULA</label>
+                        <input type="radio" id="pl" name="currency"/>
+                    </div>                
+                </div>
+
+                <div class="input-box min">
+                    <label for="min-price">Min-Price:</label>
+                    <input type="range" id="min-price" name="min-price" min="40" max="999"/>
+                </div>
+
+                <div class="input-box max">
+                    <label for="max-price">Max-Price:</label>
+                    <input type="range" id="max-price" name="max-price" min="40" max="999"/>
+                </div>
+
+                <div class="input-box checkbox">
+                    <label>Producer:</label><br>
+
+                    <div>
+                        <label for="caer">Caer</label>
+                        <input type="checkbox" id="caer" name="caer"/>
+                    </div>
+                    
+                    <div>
+                        <label for="ledd">Ledd</label>
+                        <input type="checkbox" id="ledd" name="ledd"/>
+                    </div>
+                    
+                    <div>
+                        <label for="shotiba">Shotiba</label>
+                        <input type="checkbox" id="shotiba" name="shotiba"/>
+                    </div>
+                    
+                    <div>
+                        <label for="susa">Susa</label>
+                        <input type="checkbox" id="susa" name="susa"/>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div id="products-gallery">
+            <div class="product">
+                <div class="img-and-title">
+                    <img src="./resources/images/item1.png" width="150" height="150"/>
+                    <h3>Product Title</h3>
+                </div>
+                <div class="info-and-specs">
+                    <h3>Specs</h3><br>
+                    <ul>
+                        <li>Spec 1</li>
+                        <li>Spec 2</li>
+                        <li>Spec 3</li>
+                    </ul>                   
+                </div>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <div class="img-and-title">
+                    <img src="./resources/images/item2.png" width="150" height="150"/>
+                    <h3>Product Title</h3>
+                </div>
+                <div class="info-and-specs">
+                    <h3>Specs</h3><br>
+                    <ul>
+                        <li>Spec 1</li>
+                        <li>Spec 2</li>
+                        <li>Spec 3</li>
+                    </ul>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <div class="img-and-title">
+                    <img src="./resources/images/item3.png" width="150" height="150"/>
+                    <h3>Product Title</h3>
+                </div>
+                <div class="info-and-specs">
+                    <h3>Specs</h3><br>
+                    <ul>
+                        <li>Spec 1</li>
+                        <li>Spec 2</li>
+                        <li>Spec 3</li>
+                    </ul>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <div class="img-and-title">
+                    <img src="./resources/images/item4.png" width="150" height="150"/>
+                    <h3>Product Title</h3>
+                </div>
+                <div class="info-and-specs">
+                    <h3>Specs</h3><br>
+                    <ul>
+                        <li>Spec 1</li>
+                        <li>Spec 2</li>
+                        <li>Spec 3</li>
+                    </ul>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <div class="img-and-title">
+                    <img src="./resources/images/item5.png" width="150" height="150"/>
+                    <h3>Product Title</h3>
+                </div>
+                <div class="info-and-specs">
+                    <h3>Specs</h3><br>
+                    <ul>
+                        <li>Spec 1</li>
+                        <li>Spec 2</li>
+                        <li>Spec 3</li>
+                    </ul>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <div class="img-and-title">
+                    <img src="./resources/images/item6.png" width="150" height="150"/>
+                    <h3>Product Title</h3>
+                </div>
+                <div class="info-and-specs">
+                    <h3>Specs</h3><br>
+                    <ul>
+                        <li>Spec 1</li>
+                        <li>Spec 2</li>
+                        <li>Spec 3</li>
+                    </ul>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <div class="img-and-title">
+                    <img src="./resources/images/item7.png" width="150" height="150"/>
+                    <h3>Product Title</h3>
+                </div>
+                <div class="info-and-specs">
+                    <h3>Specs</h3><br>
+                    <ul>
+                        <li>Spec 1</li>
+                        <li>Spec 2</li>
+                        <li>Spec 3</li>
+                    </ul>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <div class="img-and-title">
+                    <img src="./resources/images/item8.png" width="150" height="150"/>
+                    <h3>Product Title</h3>
+                </div>
+                <div class="info-and-specs">
+                    <h3>Specs</h3><br>
+                    <ul>
+                        <li>Spec 1</li>
+                        <li>Spec 2</li>
+                        <li>Spec 3</li>
+                    </ul>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <div class="img-and-title">
+                    <img src="./resources/images/item9.png" width="150" height="150"/>
+                    <h3>Product Title</h3>
+                </div>
+                <div class="info-and-specs">
+                    <h3>Specs</h3><br>
+                    <ul>
+                        <li>Spec 1</li>
+                        <li>Spec 2</li>
+                        <li>Spec 3</li>
+                    </ul>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+
+        <div id="ad">
+            <h2>Call Doggo Repair Today!</h2>
+            <h3>1234-Iwuvtreats-890</h3>
+        </div>
+
+        <div id="contact">
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d305641.8738510841!2d25.867875900434857!3d44.62522282757673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b207e11d04239b%3A0xe10a116fd9152ade!2sPC.Garage!5e0!3m2!1sen!2sro!4v1662296032814!5m2!1sen!2sro" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="location-info">
+                <h4>Telephone: 1234-567-890</h4>
+                <h4>E-mail: serviceemail@email.mail</h4>
+                <h4>Fax: get with the times Jimbo</h4>
+            </div>
+            <div class="location-img">
+                <img src="./resources/images/a0002561_parts_5b90d06638966.jpg" height="300" width="600"/>
+            </div>
+        </div>
+
+        <footer>
+            <h4>copyright 'Johny's Electronics CO' 2022</h4>
+        </footer>
+
+    </body>
+</html>
